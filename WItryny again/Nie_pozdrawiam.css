@@ -1,0 +1,33 @@
+img{
+    height: 600px;
+    width: 100%;
+}
+
+.menu{
+    border: black 2px;
+    font-weight: 700;
+    text-align: center;
+    background-color:red ;
+    font-size: 20px;
+}
+
+.info
+{
+    text-align: center;
+    font-size: 25px;
+    background-color: orange;
+}
+
+.konieStrony
+{
+    border: 2px solid black;
+    height: 200px;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+a{
+    padding: 35px;
+    font-size: 25px ;
+    display: inline;
+}

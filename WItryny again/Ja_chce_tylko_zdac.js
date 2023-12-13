@@ -1,0 +1,1 @@
+alert("Witamy na stronie Leuage of Qiyana");
