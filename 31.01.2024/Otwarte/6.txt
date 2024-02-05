@@ -1,0 +1,5 @@
+1.enctype - sposob przeslania informacji przed przeslaniem 
+2.mathod - metoda przesylania dannych 
+3.rest - reset formularza 
+4.value - wartosc poczatkowa pola 
+5.action - miejsce do celowe przetwarzania dannych 

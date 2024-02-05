@@ -1,0 +1,6 @@
+Nazwa			zastosowanie   				znacznik 
+type="submit" 		dla wysylania dannych			input 
+scrolling		uswawienie suwaka do przewijania 	frame
+maxlenght		maksymalna liczba znakow 		input 
+id="header"		indyfikowanie elementow 		brak 
+type="text"		dla wpisywania tekstow			input 
