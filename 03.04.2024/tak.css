@@ -1,0 +1,26 @@
+.textt
+{
+    font-size : 10px;
+    color : lightseagreen;
+    margin-top : auto;
+    margin-bottom : auto;
+    margin-left : auto;
+    margin-right : auto;
+    text-align : center;
+   width : 250px;
+   height: 250px;
+   border-radius : 5px;
+}
+.button
+{
+    text-align : center;
+    background-color : lightseagreen;
+    margin : 20px;
+    width: 250px;
+    height: 25px;
+    margin-top : auto;
+    margin-bottom : auto;
+    margin-left : auto;
+    margin-right : auto;
+    text-align : center;
+}
