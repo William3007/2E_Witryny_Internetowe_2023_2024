@@ -8,60 +8,59 @@
 </head>
 <body>
     <main>
-        <section>
-            <form>
-                <fieldset class="textt">
-                    <legend class="text"> KANTOR WALUT</legend> 
-                    <div class ="div1">
-                        <label>
-                            Kwota*: <input type="number" min="1" step = "any" placeholder ="100" required>
+        <section class ="section">
+            <form class="form">
+                <fieldset class="form__fieldset">
+                    <legend class="form__legend"> <b>KANTOR WALUT</b></legend> 
+                    <div class ="form__container">
+                        <label class = "form__label">
+                            Kwota*: <input class = "form__input" type="number" min="1" step = "any" placeholder ="100" required>
                         </label>
-                        <select>
+                        <select class = "form__select">
                             <option> PLN</option>
                             <option> USD</option>
                             <option> PGB</option>
                             <option> EUR</option>
                             <option> CHF</option>
                         </select>
-                        <p> * - pole wymagane </p>
+                        <p class="form__paragraph"> * - pole wymagane </p>
                     </div>
-                    <div>
+                    <div class = "form__container">
                         <p> Wybierz walutę docelową: </p>
-                        <ul>
-                            <li>
-                                <label>
-                                    <input type="radio" value = "PLN">PLN
+                        <ul class = "form__list">
+                            <li class = "form__listItem">
+                                <label class = "form__label">
+                                    <input type="radio" value = "PLN" name ="tak">PLN
                                 </label>
                             </li>
-                            <li>
-                                <label>
-                                    <input type="radio" value = "USD">USD
+                            <li class = "form__listItem">
+                                <label class = "form__label">
+                                    <input type="radio" value = "USD" name="tak">USD
                                 </label>
                             </li>
-                            <li>
-                                <label>
-                                    <input type="radio" value = "GBP">GBP
+                            <li class = "form__listItem">
+                                <label class = "form__label">
+                                    <input type="radio" value = "GBP" name = "tak">GBP
                                 </label>
                             </li>
-                            <li>
-                                <label>
-                                    <input type="radio" value = "EUR">EUR
+                            <li class = "form__listItem">
+                                <label class = "form__label">
+                                    <input type="radio" value = "EUR" name="tak">EUR
                                 </label>
                             </li>
-                            <li>
-                                <label>
-                                    <input type="radio" value = "CHF">CHF
+                            <li class = "form__listItem">
+                                <label class = "form__label">
+                                    <input type="radio" value = "CHF" name = "tak">CHF
                                 </label>
                             </li>
                         </ul>
                     </div>
                 </fieldset>
-                <div>
-                    <button class="button" type ="submit">Przelicz 
-                    </button>
+                <div class="form__container">
+                    <button class = "form__button"class="button" type ="submit">PRZELICZ </button>
                 </div>
             </form>
-            <p> Otrzymasz: </p>
+            <p class = "section_paragraph"> Otrzymasz: </p>
         </section>
     </main>
     
