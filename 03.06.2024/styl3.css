@@ -1,0 +1,61 @@
+body{
+    font-family: Georgia;
+    background-color: aliceblue;
+}
+header{
+    background-color: #A00037;
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    padding: 3px;
+}
+main{
+    width: 70%;
+    float:left;
+}
+button
+{
+    background-color: #D81B60;
+    color: white;
+    padding: 15px;
+    margin: 20px;
+    width: 100%;
+}
+footer
+{
+    background-color: #D81B60;
+    color: white;
+    width: 20%;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 6%;
+    float:left;
+}
+img
+{
+    height: 100%;
+    width: 100%;
+}
+h5
+{
+    text-align: center;
+    margin: 0;
+    font-style: italic;
+}
+q
+{
+    text-align: center;
+    margin: 0;
+    font-style: italic;
+}
+table{
+    margin: auto;
+    width: 95%;
+    border : 1px aliceblue;
+}
+div{
+    text-align: center;
+}
+b{
+    color: #D81B60;
+}
